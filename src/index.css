@@ -1,0 +1,38 @@
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+ 
+}
+body{
+  color: #212226;
+  scroll-behavior: smooth;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway',sans-serif;
+}
+p{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-size: 13px ;
+  line-height: 24px;
+}
+.btn-general{
+  font-family: "Raleway",sans-serif;
+  border-radius: 28px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0 6px;
+  padding: 12px 46px 12px 46px;
+  transform: all .5s;
+  -webkit-transform: all .5s;
+}
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+  background:#f4c613;
+  border-radius: 6px;
+ 
+
+}
